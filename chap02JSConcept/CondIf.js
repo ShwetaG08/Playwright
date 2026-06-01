@@ -7,22 +7,6 @@ if (age>18){
     }
 
 
-    function grade(perc){
-        if(perc>=90){
-            console.log("Grade A");
-        }
-        else if(perc<90 && perc>=80) {
-            console.log("Grade B");
-        }   
-        else if(perc<80&&perc>=70){
-            console.log("Grade C");
-        }
-        else{
-            console.log("Grade D");
-        }
-    }
-    grade(95);
-
 
     let isloggedin = false;
     let user_role="editor";
